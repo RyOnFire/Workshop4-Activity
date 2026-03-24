@@ -52,3 +52,9 @@ statusBtn.addEventListener("click", () => {
   statusText.textContent = "Status: Button Clicked!";
   statusBtn.disabled = true;
 });
+
+resetBtn.addEventListener("click", () =>{
+  statusText.textContent = "Status: Reset!!";
+  statusBtn.disabled = true;
+
+});
